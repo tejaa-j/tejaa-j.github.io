@@ -51,13 +51,13 @@
       "summary": "Pursuing Computer Science Engineering with a focus on web development and software engineering."
     },
     {
-      "institution": "Narayana School",
+      "institution": "Sri Chaitanya Jr College",
       "url": null,
-      "area": "Secondary School Certificate (SSC)",
+      "area": "Board of Intermediate Education (BIE)",
       "studyType": "School",
-      "startDate": "2019-03-01",
-      "endDate": "2020-09-20",
-      "summary": "Graduated with an A+ grade."
+      "startDate": "2020-07-01",
+      "endDate": "2023-07-20",
+      "summary": "Graduated with an A grade."
     }
   ],
   "awards": [
@@ -69,10 +69,10 @@
   ],
   "skills": {
     "programming_languages": ["JavaScript"],
-    "frameworks": ["React", "Next.js"],
-    "databases": ["MySQL", "PostgreSQL", "Redis"],
+    "frameworks": ["React", "Node.js"],
+    "databases": ["MySQL", "PostgreSQL", "MongoDB"],
     "interests": ["Go", "Rust", "C", "FOSS", "Privacy"],
-    "tools": ["Git", "VSCodium", "Arch Linux"]
+    "tools": ["Windows", "MacOS", "Linux"]
   },
   "projects": [
     {
