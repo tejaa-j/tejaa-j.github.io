@@ -60,11 +60,16 @@
       "summary": "Graduated with an A grade."
     }
   ],
-  "awards": [
+  "certifications": [
     {
-      "title": "Personal Learning Milestone",
-      "date": "2023-11-01",
-      "awarder": "Self-Development"
+      "title": "Advanced Automation Certification",
+      "date": "2025-09",
+      "awarder": "Automation Anywhere"
+    },
+    {
+      "title": "MongoDB Associate Developer",
+      "date": "2024-11",
+      "awarder": "MongoDB"
     }
   ],
   "skills": {
