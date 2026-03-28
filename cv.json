@@ -1,9 +1,9 @@
 {
   "basics": {
-    "name": "Jagarlamudi Teja",
+    "name": "Teja Jagarlamudi",
     "nickname": "teja",
     "label": "Undergraduate of Computer Science at KL University.",
-    "summary": "Privacy-focused developer passionate about building open-source solutions while exploring privacy, security, and web development. Dedicated to continuous learning and honing skills in tech to drive meaningful contributions.",
+    "summary": "I build full-stack apps, experiment with ML, and lately got into backend systems like APIs, concurrency, and rate limiting. Also into data and how it actually works in real projects. Figuring things out as I go.",
     "location": {
       "city": "Hyderabad",
       "countryCode": "IN",
@@ -13,6 +13,10 @@
       {
         "network": "email",
         "url": "mailto:tejaa.3086@gmail.com"
+      },
+      {
+        "network": "linkedin",
+        "url": "https://www.linkedin.com/in/teja-j/"
       },
       {
         "network": "telegram",
@@ -42,25 +46,30 @@
   ],
   "education": [
     {
-      "institution": "KL University",
+      "institution": "KL University Hyderabad",
       "url": null,
       "area": "Undergraduate in Computer Science Engineering",
       "studyType": "College",
       "startDate": "2023-07-01",
-      "endDate": "2027-10-15",
-      "summary": "Pursuing Computer Science Engineering with a focus on web development and software engineering."
+      "endDate": "2027-06-15",
+      "summary": "Pursuing Computer Science Engineering with a focus on backend systems and full-stack development."
     },
     {
       "institution": "Sri Chaitanya Jr College",
       "url": null,
       "area": "Board of Intermediate Education (BIE)",
       "studyType": "School",
-      "startDate": "2020-07-01",
+      "startDate": "2021-07-01",
       "endDate": "2023-07-20",
       "summary": "Graduated with an A grade."
     }
   ],
   "awards": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "date": "2026-01",
+      "awarder": "Amazon Web Services (AWS)"
+    },
     {
       "title": "Advanced Automation Certification",
       "date": "2025-09",
@@ -73,62 +82,48 @@
     }
   ],
   "skills": {
-    "programming_languages": ["JavaScript"],
-    "frameworks": ["React", "Node.js"],
+    "programming_languages": ["Java", "Python", "JavaScript"],
+    "frameworks": ["React", "Node.js", "Spring Boot"],
     "databases": ["MySQL", "PostgreSQL", "MongoDB"],
-    "interests": ["Go", "Rust", "C", "FOSS", "Privacy"],
-    "tools": ["Windows", "MacOS", "Linux"]
+    "interests": ["Go", "Rust", "FOSS", "Privacy"],
+    "tools": ["Git", "Docker","AWS", "Linux"]
   },
   "projects": [
-    {
-      "name": "Rustor",
-      "description": "Blazing Fast Fetch Tool",
-      "url": "https://github.com/Evren-os/rustor",
-      "highlights": [
-        "Built a high-performance fetch tool using Rust",
-        "Showcased expertise in systems programming and performance optimization"
-      ],
-      "technologies": ["Rust"]
-    },
-    {
-      "name": "Hyprblaze",
-      "description": "Customized Hyprland Dotfiles for Arch Linux",
-      "url": "https://github.com/Evren-os/hyprblaze",
-      "highlights": [
-        "Crafted a customized hyprland setup with advanced configurations",
-        "Implemented Nvidia DKMS auto-detection and optimized system performance"
-      ],
-      "technologies": ["Linux", "Shell", "Hyprland"]
-    },
-    {
-      "name": "Tome App Clone",
-      "description": "Web Application Clone",
-      "url": "https://github.com/Evren-os/Tome-App-Clone",
-      "highlights": [
-        "Recreated the Tome App’s design using Tailwind CSS",
-        "Honed front-end development skills and mastered responsive design"
-      ],
-      "technologies": ["HTML", "CSS", "Tailwind"]
-    },
-    {
-      "name": "Weather App",
-      "description": "Minimal Weather Tracking Application",
-      "url": "https://github.com/Evren-os/Weather-App",
-      "highlights": [
-        "Built a weather app using vanilla JavaScript",
-        "Integrated OpenWeather API for real-time weather data"
-      ],
-      "technologies": ["JavaScript", "OpenWeather API"]
-    },
-    {
-      "name": "Guess The Hidden Number",
-      "description": "Interactive JavaScript Game",
-      "url": "https://github.com/Evren-os/Guess-The-Hidden-Number",
-      "highlights": [
-        "Created an interactive number guessing game",
-        "Practiced JavaScript fundamentals and user interaction"
-      ],
-      "technologies": ["JavaScript", "HTML", "CSS"]
-    }
-  ]
+  {
+    "name": "Task Manager Web Application",
+    "description": "Real-Time Task Management System",
+    "url": "",
+    "highlights": [
+      "Built a task manager supporting 50+ concurrent users",
+      "Developed 10+ secure REST APIs with role-based access",
+      "Integrated Firebase Auth, reducing unauthorized access by 95%",
+      "Collaborated using Git and deployed on Firebase"
+    ],
+    "technologies": ["React", "Spring Boot", "Firebase", "Java"]
+  },
+  {
+    "name": "Distributed Rate Limiter & API Gateway",
+    "description": "High-Concurrency Traffic Control System",
+    "url": "",
+    "highlights": [
+      "Implemented Token Bucket & Sliding Window (10 req/sec)",
+      "Reduced API abuse by 85% across multiple endpoints",
+      "Handled 1000+ concurrent requests safely",
+      "Optimized system for burst traffic scenarios"
+    ],
+    "technologies": ["Java", "Spring Boot", "Concurrency"]
+  },
+  {
+    "name": "Focus Sentinel",
+    "description": "Browser Productivity Extension",
+    "url": "",
+    "highlights": [
+      "Tracked browsing across 20+ websites per session",
+      "Added real-time alerts based on usage limits",
+      "Displayed 7-day usage analytics",
+      "Improved features using feedback"
+    ],
+    "technologies": ["JavaScript", "Chrome API"]
+  }
+]
 }
